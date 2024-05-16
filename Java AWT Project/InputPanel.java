@@ -93,9 +93,9 @@ public class InputPanel extends JPanel implements ActionListener {
         gradeFields = new ArrayList<>();
 
         // Establish database connection
-        String url = "jdbc:postgresql://localhost:5432/exam";
-        String user = "postgres";
-        String password = "12345";
+        String url = "";
+        String user = "";
+        String password = "";
         try {
             connection = DriverManager.getConnection(url, user, password);
         } catch (SQLException e) {
